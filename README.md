@@ -8,7 +8,7 @@ This repository holds the downloads and release notes. Bias's source is not publ
 
 ## Requirements
 
-- macOS 13 or later, Apple Silicon (Intel builds later).
+- macOS 13 or later, on Apple Silicon or Intel (one universal app, from 1.0.0-rc.3).
 - A TASCAM Model 2400 connected to the Mac by USB.
 - Audio Unit effects on the Mac for the inserts.
 
