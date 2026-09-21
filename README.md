@@ -12,13 +12,14 @@ This repository holds the downloads and release notes. Bias's source is not publ
 - A TASCAM Model 2400 connected to the Mac by USB.
 - Audio Unit effects on the Mac for the inserts.
 
-## Installing a beta build
+## Installing
 
-Beta builds are not yet signed or notarized, so macOS refuses the first launch.
+Bias is signed with our Developer ID and notarized by Apple, so it opens without a Gatekeeper warning.
 
 1. Open the DMG and drag **Bias** to Applications.
-2. Right‑click Bias in Applications and choose **Open**, then **Open** again in the dialog. On macOS 15 and later you can instead launch it once, then go to **System Settings → Privacy & Security**, scroll to "Bias was blocked", and click **Open Anyway**.
-3. On first launch macOS asks to let Bias use the **microphone**. Click **Allow**. The inserts run on the 2400's USB channels, which macOS treats as audio input.
+2. On first launch macOS asks to let Bias use the **microphone**. Click **Allow**. The inserts run on the 2400's USB channels, which macOS treats as audio input.
+
+Builds downloaded before September 21, 2026 were unsigned. Installing a signed build over one of those keeps your settings, and macOS asks for the microphone once more.
 
 ## Before using inserts
 
