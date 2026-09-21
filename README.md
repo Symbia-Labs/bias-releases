@@ -1,6 +1,6 @@
 # Bias
 
-A tape-machine view for the TASCAM Model 2400, on the Mac. A meter bridge of every channel against the recorder's 24 tracks, a cassette and counter that follow the recorder, Audio Unit inserts on the strips that print to the SD card, a setup per song, markers and takes against the recorder's timecode, MIDI control of the plugins, and an MCP server so an agent can work the session. The 2400's own recorder stays the tape machine; Bias follows it.
+A tape-machine view for the TASCAM Model 2400, on the Mac. A meter bridge of every channel against the recorder's 24 tracks, a deck and counter that follow the recorder, Audio Unit inserts on the strips that print to the SD card, Bias Tape (our own multitrack tape model) in the tape slot, markers and takes against the recorder's timecode, MIDI control of the plugins, and an MCP server so an agent can work the session. The 2400's own recorder stays the tape machine; Bias follows it.
 
 This repository holds the downloads and release notes. Bias's source is not published; the "Source code" archives GitHub attaches to each release contain only this README.
 
@@ -34,7 +34,9 @@ Each strip's **INPUT SEL** and **REC OUT** switches decide what Bias hears, what
 
 ## Beta terms
 
-Beta builds run as the full Studio tier and stop working on the date shown under the gear at the top right → **License**, when a newer build will be out.
+Everything in Bias is free until the end of the beta, the date shown under the gear at the top right → **License** (December 31, 2026). After that Bias keeps working, and License has a link to buy a key: $19.99, activating up to three Macs. Nothing is locked either way.
+
+Builds before 1.0.0-rc.2 stop working on their date; install a newer one from this page.
 
 ## Reporting a problem
 
